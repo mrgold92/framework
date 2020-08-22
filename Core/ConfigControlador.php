@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+use Core\View;
+
 require_once './Core/View.php';
 require_once './Core/Model.php';
 require_once './Core/Utils.php';

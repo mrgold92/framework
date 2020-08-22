@@ -1,6 +1,10 @@
 <?php
 
-require_once './Core/View.php';
+namespace Controladores;
+
+use ConfigControlador;
+
+
 
 
 class ErrorController extends ConfigControlador {
@@ -8,6 +12,6 @@ class ErrorController extends ConfigControlador {
     public function index(array $params = [])
     {
 
-        $this->View('404');
+        self::View('404');
     }
 }

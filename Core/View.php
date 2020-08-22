@@ -1,5 +1,7 @@
 <?php
 
+namespace Core;
+
 class View
 {
     public function __construct(string $vista, array $params = [])

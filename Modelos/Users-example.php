@@ -1,5 +1,8 @@
 <?php
 
+namespace Modelos;
+
+use Model;
 
 class Users extends Model
 {

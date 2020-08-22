@@ -5,6 +5,7 @@ declare(strict_types=1);
 require_once 'Core/config.php';
 require_once 'Core/ConfigControlador.php';
 
+
 $controller = ucwords(ConfigControlador::getController());
 
 $ruta_controller = './Controladores/' . $controller . 'Controller.php';
@@ -15,8 +16,10 @@ if (file_exists($ruta_controller)) {
 
     require_once "$ruta_controller";
 
-    $controller = $controller . 'Controller';
-    $controller = new $controller;
+
+    $controller = 'Controladores\\'.$controller . 'Controller';
+
+    $controller = new $controller();
 
     if (method_exists($controller, $accion)) {
         if (!empty($parametros)) {

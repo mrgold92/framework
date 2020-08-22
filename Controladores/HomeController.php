@@ -1,5 +1,10 @@
 <?php
 
+namespace Controladores;
+
+use ConfigControlador;
+use Modelos\Users;
+
 require_once './Modelos/Users-example.php';
 
 class HomeController extends ConfigControlador
