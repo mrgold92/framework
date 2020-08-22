@@ -1,6 +1,6 @@
 <?php
 
-require_once './Modelos/Users.php';
+require_once './Modelos/Users-example.php';
 
 class HomeController extends ConfigControlador
 {

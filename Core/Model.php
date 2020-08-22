@@ -64,12 +64,12 @@ class Model
         return $result;
     }
 
-    public function create()
+    public function create($values = [])
     {
 
         self::getConnection();
 
-        $values = get_object_vars($this);
+
 
         $has_many = self::checkRelationship("has_many", $values);
 

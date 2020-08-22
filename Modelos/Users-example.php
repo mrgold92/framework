@@ -25,4 +25,8 @@ class Users extends Model
         return self::where("email", $email);
     }
 
+    public function insertUser(){
+        return self::create();
+    }
+
 }
