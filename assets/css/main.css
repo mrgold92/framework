@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+    background: #4d80ca;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    background: #4d80ca;
+    color: white;
+    padding: 12px;
+    width: 90%;
+    margin: 50px auto 0 auto;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background: rgba(143, 146, 212, 0.4);
+    padding: 12px;
+    color: white;
+}
