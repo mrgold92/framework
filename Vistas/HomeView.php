@@ -11,7 +11,6 @@
 <body>
 
     <div class="main">
-        <img src="/assets/img/MTIKPBUt01.svg" alt="logo" width="150">
         <div class="center">
             <h1>Hello to framework</h1>
 
