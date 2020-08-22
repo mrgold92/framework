@@ -1,5 +1,0 @@
-Options All -indexes
-
-RewriteEngine On
-
-RewriteRule ^([a-zA-Z0-9/]+)$ index.php?v=$1
