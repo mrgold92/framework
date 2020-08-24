@@ -17,7 +17,7 @@ if (file_exists($ruta_controller)) {
     require_once "$ruta_controller";
 
 
-    $controller = 'Controladores\\'.$controller . 'Controller';
+    $controller = 'Controladores\\' . $controller . 'Controller';
 
     $controller = new $controller();
 

@@ -13,8 +13,8 @@ define("DEFAULT_VIEW", "Home");
 //BASE DE DATOS
 define("DB_HOST", "localhost");
 define("DB_USER", "root");
-define("DB_PASS", "");
-define("DB_NAME", "blog");
+define("DB_PASS", "root");
+define("DB_NAME", "framework");
 
 //utils
 if (isset($_SESSION['user_token'])) {
